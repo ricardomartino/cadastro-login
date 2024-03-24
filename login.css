@@ -57,8 +57,96 @@ img {
 .form > div {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: -50px;
 }
+
+/* Inicio Conteudo direita [CADASTRO.HTML] */
+
+.form-cadastro > div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: -50px;
+    top: -45px;
+}
+
+.input-form-cadastro > input {
+    display: flex;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input-form-cadastro > label {
+    color: #807e7e9a;
+    position: relative;
+    top: -32px;
+    left: 15px;
+    transition: 0.5s;
+}
+
+input:focus ~ .label-cadastro,
+input:not(:placeholder-shown) ~ .label-cadastro {
+    width: 50px;
+    top: -65px;
+    color: #293C4D;
+    font-size: 13px;
+}
+
+.header-form-cadastro {
+    position: relative;
+    top: -50px;
+    color: #FFFF;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+#login-account {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    top: -30px;
+}
+
+#icon-user-cadastro {
+    display: flex;
+    width: 15px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+}
+
+#icon-email {
+    display: flex;
+    width: 15px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+}
+
+#icon-calendar {
+    display: flex;
+    width: 15px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+}
+
+#icon-password-cadastro {
+    display: flex;
+    width: 15px;
+    position: relative;
+    left: 270px;
+    bottom: 50px;
+}
+
+/* Fim Conteudo direita [CADASTRO.HTML] */
 
 /* Caixa de Login */
 
@@ -86,7 +174,7 @@ img {
 
 .header-form {
     position: relative;
-    top: 10px;
+    top: -5px;
     color: #FFFF;
     display: flex;
     flex-direction: row;
@@ -108,7 +196,7 @@ img {
     font-weight: bolder;
     color: white;
     position: relative;
-    bottom: 20px;
+    top: -8px;
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -144,7 +232,7 @@ input:not(:placeholder-shown) ~ label {
     text-decoration: none;
     font-size: 17px;
     position: relative;
-    bottom: 15px;
+    top: 10px;
 }
 
 /* Ondas */
